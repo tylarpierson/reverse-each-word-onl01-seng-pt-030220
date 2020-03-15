@@ -6,3 +6,10 @@ def reverse_each_word(string)
   end
   new_arr.join(" ")
 end
+
+def reverse_each_word_collect(string)
+  my_arr = string.split 
+  new_arr = []
+  my_arr.collect do |word|
+    
+end
